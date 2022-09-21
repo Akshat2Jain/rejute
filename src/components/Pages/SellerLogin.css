@@ -1,0 +1,127 @@
+.fullscreen-container {
+    /* background: #ECEFF1;  */
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
+  
+  .sign-up-container {
+    padding: 25px;
+    background: white;
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+    
+  }
+  
+  .sign-up-container::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #1f5156;  
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .signup-header,
+  .signup-text {
+    text-align: center;
+  }
+  
+  .signup-header {
+    color: #212121;
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+  
+  .signup-text {
+    margin-bottom: 15px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: .8rem;
+  }
+  
+  .input-container input {
+    font-size: 1.25rem;
+    border-radius: 2px;
+    padding: .5rem;
+    outline: none;
+    border: none;
+    /* box-shadow: 0 0 0 1px #9E9E9E; */
+  }
+  
+  .input-container input:focus {
+    border: none;
+    box-shadow: 0 0 0 1px #1f5156;
+  }
+  .input-container .descp{
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+ .input-container textarea{
+  font-size: 1.25rem;
+  border-radius: 2px;
+  padding: .5rem;
+  outline: none;
+  border: none;
+  }
+  .input-container textarea:focus{
+    border: none;
+    box-shadow: 0 0 0 1px #1f5156;
+  }
+
+  
+  button {
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background: #1f5156;
+    color: white;
+  }
+  
+  button:hover,
+  button:focus {
+    background: hsl(151, 70%, 45%, .7);
+    box-shadow: 0 0 0 1px hsl(151, 100%, 35%);
+  }
+  
+  .login-here {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  
+  .login-here .login {
+    text-decoration: none;
+    color: #00E676;
+    cursor: pointer;
+  }
+  
